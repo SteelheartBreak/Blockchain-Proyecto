@@ -1,0 +1,35 @@
+# Proyecto Final de Blockchain
+Se puede utilizar etherscan para verificar todo en el blockchain (recordar que se revisa en la testnet Sepolia)
+
+## Requisitos
+1. Tener instalado Node.js
+2. Verificar instalación
+   ```bash
+   node -v
+   npm -v
+   ```
+3. Instalar extensión de Solidity en VS
+
+## Compilación de Contrato
+1. Estar en el proyecto general
+   ```bash
+   npx hardhat compile
+   ```
+2. Crear carpetas ignition\modules y dentro crear el ContractDeploy.js
+
+## Variables de entorno
+1. Primera (Se consigue dentro de Infura al crear una cuenta)
+   ```bash
+   npx hardhat vars set INFURA_API_KEY
+   ```
+2. Segunda (Se consigue dentro de la billetera de metamask)
+   ```bash
+   npx hardhat vars set SEPOLIA_PRIVATE_KEY
+   ```
+   
+## Despliege del contrato
+1. 
+   ```bash
+   npx hardhat ignition deploy ignition/modules/ContractDeploy.js --network sepolia
+   ```
+2. Se debe colocar el contractModule#SimpleContract de la consola, dentro de la variable contractAddress en interact.js
