@@ -1,24 +1,39 @@
-// SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-pragma solidity ^0.8.26;
+import "./WiseGuard.sol";
 
-import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+contract Crowdfunding {
+  struct Investor {
+    address investorAddress;
+    uint amountInvested;
+    bool isType2;
+  }
 
+  WiseGuard public nftContract; // Instance of the NFT contract
 
-contract SimpleContract {
-    uint public data;
-    
-    constructor() {
-        data=2024;
+  mapping(address => Investor) public investors;
+
+  constructor(address _nftContractAddress) {
+    nftContract = WiseGuard(_nftContractAddress);
+  }
+
+  function invest(uint _amount) public payable {
+    require(msg.value == _amount, "Incorrect amount sent");
+    // ... (Logic to verify investor existence, update amount, etc.)
+
+    // If investor type 2 and threshold is met, mint NFT
+    if (investors[msg.sender].isType2 && investors[msg.sender].amountInvested + _amount >= 0.001 ether) {
+      nftContract.safeMint(); // Mint the NFT before transferring
     }
+  }
 
-    function accumulateData(uint _data) public {
-        data=data + _data;
-    }
+  function claimRewards() public {
+    // ... (Logic to calculate and transfer WiseCoins, verify claim eligibility)
 
-    function getData() public view returns(uint) {
-        return data;
+    // Transfer NFT if investor is type 2
+    if (investors[msg.sender].isType2) {
+      nftContract.safeTransferFrom(address(this), msg.sender, nftContract.getNextTokenId() - 1); // Get the most recently minted token ID
     }
+  }
 }

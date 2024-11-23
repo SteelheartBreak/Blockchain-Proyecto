@@ -1,10 +1,48 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\contracts\\SimpleContract.sol": {
-      "lastModificationDate": 1732334101859,
-      "contentHash": "bc7c3ebd8f52dfe0d9ec78538eb40338",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\contracts\\SimpleContract.sol": {
+      "lastModificationDate": 1732345232921,
+      "contentHash": "289086695a47ecce3b14a494cc3fa0ec",
       "sourceName": "contracts/SimpleContract.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./WiseGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Crowdfunding"
+      ]
+    },
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\contracts\\WiseGuard.sol": {
+      "lastModificationDate": 1732345228688,
+      "contentHash": "9706370cb7f9feee16985a50dba2bb4a",
+      "sourceName": "contracts/WiseGuard.sol",
       "solcConfig": {
         "version": "0.8.27",
         "settings": {
@@ -35,15 +73,15 @@
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
-        "^0.8.26"
+        "^0.8.22"
       ],
       "artifacts": [
-        "SimpleContract"
+        "WiseGuard"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1732334101902,
-      "contentHash": "f665fc4a91af3170f86727fc49cc091f",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1732331616654,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -79,9 +117,9 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
-      "lastModificationDate": 1732334102058,
-      "contentHash": "b85bf3bf8ca35e93d6670e9cb0c10151",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1732331616485,
+      "contentHash": "a7951c81f7037d558c6d2f220b0cb38e",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -123,9 +161,9 @@
         "ERC721"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
-      "lastModificationDate": 1732334102062,
-      "contentHash": "fd0d1ed3617fa09c5fea8afc088fc45e",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+      "lastModificationDate": 1732331616498,
+      "contentHash": "ba4a727732c179b4dfd6f8846c52c856",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -164,9 +202,9 @@
         "ERC721URIStorage"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1732334102070,
-      "contentHash": "2783b901218e982baedae531a748ed8d",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1732331616395,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -200,9 +238,9 @@
         "Context"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1732334102076,
-      "contentHash": "78bffc3dd12e9c1975243fcc8e862304",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1732331616680,
+      "contentHash": "f4cc092958a3ddec1f4ed4103bfc54dd",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -239,9 +277,9 @@
         "Strings"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1732334102030,
-      "contentHash": "1d1602f392ece4ad9d8619d8330cf62a",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1732331616410,
+      "contentHash": "267d92fe4de67b1bdb3302c08f387dbf",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -277,47 +315,9 @@
         "IERC721Errors"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
-      "lastModificationDate": 1732334102084,
-      "contentHash": "8f7e55ae7fa026ddd6dd2b9745fac576",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
-      "solcConfig": {
-        "version": "0.8.27",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ERC165"
-      ]
-    },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
-      "lastModificationDate": 1732334102058,
-      "contentHash": "4d0f0889d3794ae11e45245fa4dcd8aa",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1732331616632,
+      "contentHash": "1fdc621cd6747e8985e11fc76ce74511",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -353,9 +353,47 @@
         "IERC721"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
-      "lastModificationDate": 1732334102065,
-      "contentHash": "706cadca3af593679b544dbc4a9aedcc",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1732331616449,
+      "contentHash": "7c03c1e37c3dc24eafb76dc2b8a5c3a6",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1732331616636,
+      "contentHash": "12c206f185cb951213799561fdcaa40d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -391,9 +429,9 @@
         "IERC721Metadata"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\utils\\ERC721Utils.sol": {
-      "lastModificationDate": 1732334102067,
-      "contentHash": "9bd18f78d28e9840f3b11a1b21b04db2",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\utils\\ERC721Utils.sol": {
+      "lastModificationDate": 1732331616499,
+      "contentHash": "f4b67273e290784d0e155f004ae52f0b",
       "sourceName": "@openzeppelin/contracts/token/ERC721/utils/ERC721Utils.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -430,9 +468,47 @@
         "ERC721Utils"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1732334102086,
-      "contentHash": "0b34c366bc65a520a1276268b7843013",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1732331616677,
+      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1732331616648,
+      "contentHash": "2b2665ae9bdb1af440658741a77fe213",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -469,83 +545,9 @@
         "Math"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
-      "lastModificationDate": 1732334102088,
-      "contentHash": "e5a40b88593f114ca4606065b530c54d",
-      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
-      "solcConfig": {
-        "version": "0.8.27",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "SignedMath"
-      ]
-    },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
-      "lastModificationDate": 1732334102073,
-      "contentHash": "d48fd42f5fe53f9221e19b61f6b64cac",
-      "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
-      "solcConfig": {
-        "version": "0.8.27",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Panic"
-      ]
-    },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
-      "lastModificationDate": 1732334102086,
-      "contentHash": "07fca9817b35d0302b609d5bf32aac50",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1732331616674,
+      "contentHash": "2adca1150f58fc6f3d1f0a0f22ee7cca",
       "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -579,9 +581,45 @@
         "SafeCast"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1732334102085,
-      "contentHash": "59a728766392f0361ed197277180ec8d",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
+      "lastModificationDate": 1732331616664,
+      "contentHash": "2133dc13536b4a6a98131e431fac59e1",
+      "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Panic"
+      ]
+    },
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1732331616597,
+      "contentHash": "bf0119eb2a570f219729ff38b6cd1df8",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -615,9 +653,9 @@
         "IERC165"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
-      "lastModificationDate": 1732334102058,
-      "contentHash": "d31abe75be6d8e14f4cb535870677392",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1732331616637,
+      "contentHash": "729ce0904eb533489ffcc3bfe91237d4",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -651,9 +689,45 @@
         "IERC721Receiver"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
-      "lastModificationDate": 1732334102023,
-      "contentHash": "bc1e5fac0bc8fa54c358f0d41b6bb927",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1732331616590,
+      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
+      "lastModificationDate": 1732331616628,
+      "contentHash": "273c26c9c728a6052d1175ace81d10b4",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC4906.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -690,45 +764,9 @@
         "IERC4906"
       ]
     },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
-      "lastModificationDate": 1732334102017,
-      "contentHash": "a582e020427db3ba407e714e341720d5",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.27",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": []
-    },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
-      "lastModificationDate": 1732334102025,
-      "contentHash": "0f504f401ef4dee63c157ba65a2c548d",
+    "C:\\Users\\Nicolas Pedraza\\Documents\\DECIMO SEMESTRE\\BLOCKCHAIN\\GIT\\Blockchain-Proyecto\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
+      "lastModificationDate": 1732331616631,
+      "contentHash": "d8d23fc2f55ed934d1a1b91c9afd8526",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC721.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -761,46 +799,6 @@
         "^0.8.20"
       ],
       "artifacts": []
-    },
-    "C:\\Users\\Asus\\Desktop\\Blockchain-Proyecto\\contracts\\WiseGuard.sol": {
-      "lastModificationDate": 1732335756115,
-      "contentHash": "9706370cb7f9feee16985a50dba2bb4a",
-      "sourceName": "contracts/WiseGuard.sol",
-      "solcConfig": {
-        "version": "0.8.27",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.22"
-      ],
-      "artifacts": [
-        "WiseGuard"
-      ]
     }
   }
 }
