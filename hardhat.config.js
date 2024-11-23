@@ -1,5 +1,6 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-ignition");
 
 // Ensure your configuration variables are set before executing this
 const { vars } = require("hardhat/config");
